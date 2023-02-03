@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juntube Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--구글 폰트 사용-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5467df1745.js" crossorigin="anonymous"></script> <!--fontawesome사용-->
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!--메뉴바-->
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="title">Juntube</span>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-searchengin"></i>
+            <i class="fa-solid fa-share"></i>
+        </div>
+    </header>
+    <!--동영상-->
+    <section class="player">
+        <iframe width="1264" height="702" src="https://www.youtube.com/embed/cSyzqumO0OI"
+            title="보자마자 마음이 힐링되는 하찮고 귀여운 동물들♥ㅎㅎㅎㅎ" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </section>
+
+    <div class="infoAndUpNext">
+        <!--상세 정보들-->
+        <section class="info">
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#JunCoding</li>
+                    <li>#JunCoders</li>
+                    <li>#Juno</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fa-solid fa-circle-info"></i>
+                    </button>
+                </div>
+                <div class="views">
+                    <span class="views">1M views 1month ago</span>
+                </div>
+            </div>
+            <ul class="actions">
+                <li>
+                    <button><i class="active fa-regular fa-thumbs-up"></i><span>1K</span></button>
+                </li>
+                <li>
+                    <button><i class="fa-regular fa-thumbs-down"></i><span>0</span></button>
+                </li>
+                <li>
+                    <button><i class="fa-solid fa-share"></i><span>Share</span></button>
+                </li>
+                <li><button><i class="fa-solid fa-floppy-disk"></i><span>Save</span></button></li>
+                <li>
+                    <button><i class="fa-solid fa-bug"></i><span>Report</span></button>
+                </li>
+            </ul>
+            <div class="channel">
+                <div class="metadata">
+                    <img src="images/avatar.png" alt="">
+                    <div class="info">
+                        <span class="name">준코딩 by 준준</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <button class="subscribe">subscribe</button>
+                </div>
+            </div>
+        </section>
+        <!--재생목록-->
+        <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="images/1.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">실시간 지금 재생 중 🥰 마음이 따뜻해지는 듣기 편안한 재즈피아노🎹 l 카페음악, 매장음악 l Relaxing Jazz Piano
+                            Music
+                            MONKEY BGM</span>
+                        <span class="name">준코딩 by 준준</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fa-sharp fa-solid fa-share-from-square"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="images/2.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">🥤Cafe & Relaxing Jazz Piano Background Music for study, work, focus l 카페재즈,
+                            매장음악, 라운지재즈</span>
+                        <span class="name">준코딩 by 준준</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fa-sharp fa-solid fa-share-from-square"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="images/3.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">🥂고급진 분위기에 어울리는 재즈플레이리스트💕 l 𝐋𝐎𝐔𝐍𝐆𝐄 𝐉𝐀𝐙𝐙 l Positive Jazz Piano
+                            Music
+                            for Restaurant, Cafe, Store
+                        </span>
+                        <span class="name">준코딩 by 준준</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fa-sharp fa-solid fa-share-from-square"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
