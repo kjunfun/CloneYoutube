@@ -62,13 +62,12 @@ header .icons .fa-brands fa-searchengin{
 /* Video player */
 .player{
     position: sticky;
-    top: 0;
+    top: 0;    
     text-align: center;
     background-color: var(--black-color);
 }
 .player iframe{
     width: 100%;
-    height: 100%;
     max-width: 1000px;
 }
 
